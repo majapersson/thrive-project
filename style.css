@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Muli', sans-serif;
+}
+
+section {
+  height: 100vh;
+}
+
+/* Temporary backgrounds */
+.splash {
+  background-image: url('images/img1.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-1 {
+  background-image: url('images/img2.jpg');
+  background-size: cover;
+}
+
+.page-2 {
+  background-image: url('images/img3.jpg');
+  background-size: cover;
+}
+
+.page-3 {
+  background-image: url('images/img4.jpg');
+  background-size: cover;
+}
+
+.page-4 {
+  background-image: url('images/img5.jpg');
+  background-size: cover;
+}
