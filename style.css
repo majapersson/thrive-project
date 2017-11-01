@@ -1,6 +1,9 @@
 * {
   margin: 0;
   box-sizing: border-box;
+}
+
+body{
   font-family: 'Muli', sans-serif;
 }
 
@@ -21,7 +24,9 @@ section {
 
 .banner {
   align-items: flex-end;
+  color: #EEE;
   display: flex;
+  font-family: 'Overpass Mono', serif;
   height: 20%;
   justify-content: center;
   width: 100%;
