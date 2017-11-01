@@ -1,0 +1,42 @@
+html {
+  overflow:hidden;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 1px;
+}
+
+main {
+  transform-style: preserve-3d;
+}
+
+section {
+  background: url('../images/img1.jpg') 100%;
+  height: 100vh;
+  transform: translateZ(-1px) scale(2);
+}
+
+.front {
+  align-items: center;
+  background-color: rgba(17, 34, 61, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  position:relative;
+}
+
+.gradRight {
+  height: 20%;
+  width: 100%;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(0, 0, 0, 0) 49.9%,
+    rgba(17, 34, 61, 1) 50%);
+  position:absolute;
+  top: -19.9%;
+}
