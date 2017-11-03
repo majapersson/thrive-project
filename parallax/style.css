@@ -21,6 +21,7 @@ section {
 }
 
 .front {
+  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 85%);
   align-items: center;
   background-color: rgba(17, 34, 61, 1);
   display: flex;
