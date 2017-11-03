@@ -6,6 +6,7 @@
 body {
   font-family: 'Muli', sans-serif;
   min-height: 100vh;
+  font-size: calc(0.75em + 1vmin);
 }
 
 section {
@@ -16,41 +17,72 @@ section {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: #FAFAFA;
+}
+
+a:visited {
+  color: #FAFAFA;
+}
+
 .row {
   flex-basis: auto;
 }
 
+.col-10 {
+  padding: 0;
+}
+
 .splash {
+  background-image: url('images/compassion-for-fashion-bild.png');
   justify-content: flex-end;
   height: 100vh;
-  padding-bottom: 20%;
+  padding: 0 0 20% 0;
 }
 
 h1 {
   font-weight: bold;
-  text-transform: uppercase;
+  width: 100%;
 }
 
 h1 span {
-  color: darkGray;
+  color: #4a4a4a;
+}
+
+h2 {
+  font-weight: 200;
+  font-size: 1.8em;
 }
 
 h5 span {
   font-weight: bold;
 }
 
+.fastfashion .row:last-child {
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: underline;
+}
+
+.white {
+  color: #FAFAFA;
+}
+
 .fastfashion {
   background-color: darkGray;
   padding: 0;
+  height: 70vh;
 }
 
 .gradientRight {
   background-image: linear-gradient(
     to right bottom,
     rgba(0, 0, 0, 0) 49.9%,
-    darkGray 50%);
+    #4a4a4a 50%);
   flex-basis: auto;
-  height: 15%;
+  height: 15vh;
   width: 100%;
-  top: -15%;
+  top: -15vh;
+  position: absolute;
 }
