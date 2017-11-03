@@ -5,4 +5,52 @@
 
 body {
   font-family: 'Muli', sans-serif;
+  min-height: 100vh;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  padding: 0;
+}
+
+.row {
+  flex-basis: auto;
+}
+
+.splash {
+  justify-content: flex-end;
+  height: 100vh;
+  padding-bottom: 20%;
+}
+
+h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h1 span {
+  color: darkGray;
+}
+
+h5 span {
+  font-weight: bold;
+}
+
+.fastfashion {
+  background-color: darkGray;
+  padding: 0;
+}
+
+.gradientRight {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(0, 0, 0, 0) 49.9%,
+    darkGray 50%);
+  flex-basis: auto;
+  height: 15%;
+  width: 100%;
+  top: -15%;
 }
