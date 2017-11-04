@@ -6,7 +6,7 @@
 body {
   font-family: 'Muli', sans-serif;
   min-height: 100vh;
-  font-size: calc(0.75em + 1vmin);
+  font-size: calc(0.70em + 1vmin);
 }
 
 section {
@@ -32,6 +32,7 @@ a:visited {
 
 .col-10 {
   padding: 0;
+  flex-basis: auto;
 }
 
 .white {
@@ -72,7 +73,7 @@ h5 span {
 h2 {
   color: #9B9B9B;
   font-weight: 200;
-  font-size: 1.8em;
+  font-size: 1.7em;
 }
 
 .fastfashion .row:last-child {
@@ -99,10 +100,56 @@ h2 {
 
 .bangladesh {
   background-color: #4a4a4a;
+  background-image: linear-gradient(
+    #4a4a4a, #F3F3F3
+    );
   padding: 0;
-  height: 100vh;
+  height: 70vh;
   justify-content: space-around;
-  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+  clip-path: polygon(0 14.5%, 100% 0, 100% 100%, 0 85.5%);
   padding: 13vh 0;
   top: -37vh;
+}
+
+.stack1 {
+  width: 67%;
+  height: 5vh;
+  background-color: #F3F3F3;
+  margin-right: 3%;
+}
+
+.stack2 {
+  width: 15%;
+  height: 5vh;
+  background-color: #F3F3F3;
+  margin-right: 3%;
+}
+
+.bangladesh .row, .bangladesh .row p {
+  padding: 0;
+  color: #F3F3F3;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.bangladesh p {
+  margin: 2em 0 0 0;
+  text-align: center;
+}
+
+.conscious {
+  background-image: url('images/conscious-fashion-bild.png');
+  background-size: cover;
+  top: -38vh;
+  text-align: center;
+  justify-content: space-around;
+
+}
+
+button {
+  background-color: #4a4a4a;
+  color: #F3F3F3;
+  padding: 0.5em 1.6em;
+  border: none;
 }
