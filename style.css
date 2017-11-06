@@ -53,7 +53,7 @@ p span {
   background-size: cover;
   justify-content: flex-end;
   height: 100vh;
-  padding: 0 0 20% 0;
+  padding: 0 0 30% 0;
 }
 
 h1 {
@@ -178,4 +178,34 @@ button {
   border: none;
   margin: auto;
   margin-top: .5em;
+}
+
+.carousel {
+  top: -38vh;
+}
+
+.thrive {
+  top: -37vh;
+  padding-top: 3vh;
+}
+
+.thrive .row:last-of-type {
+  top: -2em;
+}
+
+.thrive .row:nth-child(3) {
+  display:flex;
+  justify-content: flex-end;
+  top: -1.5vh;
+}
+
+.thrive img {
+  width: 30%;
+  height: 30%;
+}
+
+input {
+  background-color: #9B9B9B;
+  border: none;
+  padding: 0.5em 1.6em;
 }
