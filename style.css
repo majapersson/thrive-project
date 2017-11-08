@@ -112,6 +112,7 @@ h2 {
   height: 5vh;
   background-color: #F3F3F3;
   margin-right: 3%;
+  clip-path: polygon(0 0%, 97% 0, 100% 100%, 0 100%);
 }
 
 .stack2 {
@@ -119,6 +120,7 @@ h2 {
   height: 5vh;
   background-color: #F3F3F3;
   margin-right: 3%;
+  clip-path: polygon(0 0%, 88% 0, 100% 100%, 0 100%);
 }
 
 .bangladesh .row, .bangladesh .row p {
@@ -131,6 +133,7 @@ h2 {
 
 h3 {
   font-size: 1.6em;
+
 }
 
 .bangladesh p {
@@ -168,9 +171,8 @@ button span {
   word-spacing: 0.5em;
 }
 
-.thrive {
-  top: -30vh;
-  padding-top: 3vh;
+.thrive .row {
+  flex-direction: column;
 }
 
 .thrive .row:last-of-type {
@@ -178,7 +180,7 @@ button span {
 }
 
 .thrive .row:nth-child(3) {
-  display:flex;
+  flex-direction: row;
   justify-content: flex-end;
   top: -1.5vh;
 }

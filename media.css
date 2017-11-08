@@ -36,6 +36,10 @@
   .carousel {
     top: -30vh;
   }
+  .thrive {
+    top: -30vh;
+    padding-top: 3vh;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -90,5 +94,8 @@
   }
   .carousel {
     top: -18vh;
+  }
+  .thrive {
+
   }
 }
