@@ -1,0 +1,44 @@
+@media screen and (max-width: 1199px) {
+  .splash {
+  background-image: url('images/compassion-for-fashion-bild.png');
+  height: 100vh;
+  }
+  .fastfashion {
+    top: -20vh;
+  }
+  .manufacturing {
+    top: -28.5vh;
+  }
+  .conscious {
+    background-image: url('images/conscious-fashion-bild.png');
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 3.5em;
+  }
+  .splash {
+    background-image: url('images/splashmedia.jpg');
+    height: 120vh;
+    clip-path: polygon(0 0, 100% 0%, 100% 90.5%, 0% 99%);
+  }
+  .splash .row {
+    align-self: flex-end;
+  }
+  .fastfashion {
+    top: -10vh;
+    flex-direction: row;
+  }
+  .fastfashion .row:last-child {
+    order: -1;
+  }
+  .manufacturing {
+    top: -18.7vh;
+  }
+  .conscious {
+    background-image: url('images/consciousmedia.jpg');
+    text-align: left;
+  }
+}
