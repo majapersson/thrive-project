@@ -37,14 +37,17 @@ p span {
   font-weight: 600;
 }
 
+/* Fanns ej innan, ok att ta bort*/
+.container-fluid {
+  padding: 0;
+}
+
 .row {
-  flex-basis: auto;
-  margin: 0;
+  /*flex-basis: auto;*/
 }
 
 .col-10 {
-  padding: 0;
-  flex-basis: auto;
+  /*flex-basis: auto;*/
 }
 
 .white {
@@ -94,21 +97,29 @@ h2 {
 .manufacturing {
   background-color: #4a4a4a;
   background-image: url('images/bomull-bild.png');
-  background-size: contain;
-  padding: 15vh 0 0 0;
-  height: 150vh;
-  clip-path: polygon(0 0, 100% 6.7%, 100% 99%, 0 92%);
+  background-size: cover;
+  padding: 0;
+  height: 100vh;
+  justify-content: space-around;
+  clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+  padding: 13vh 0;
+}
+
+.manufacturing h2 {
+  margin-top: 20vh;
 }
 
 .bangladesh {
+  background-color: #4a4a4a;
+  background-image: linear-gradient(
+    #4a4a4a, #F3F3F3
+    );
+  padding: 0;
   height: 70vh;
   justify-content: space-around;
-  display: flex;
-  flex-direction: column;
   clip-path: polygon(0 14.5%, 100% 0, 100% 100%, 0 85.5%);
-  padding: 0 0 13vh 0;
-  border: 5px top solid white;
-  /*top: -37vh;*/
+  padding: 13vh 0;
+  top: -37vh;
 }
 
 .stack1 {
@@ -145,7 +156,7 @@ h3 {
 .conscious {
   background-size: cover;
   height: 108vh;
-  top: -30vh;
+  top: -38vh;
   justify-content: space-around;
   padding-top: 12vh;
 }
@@ -170,11 +181,11 @@ button {
 }
 
 .carousel {
-  top: -30vh;
+  top: -38vh;
 }
 
 .thrive {
-  top: -30vh;
+  top: -37vh;
   padding-top: 3vh;
 }
 

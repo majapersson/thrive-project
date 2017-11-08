@@ -8,6 +8,21 @@
   }
   .manufacturing {
     top: -28.5vh;
+    justify-content: space-between;
+  }
+  .manufacturing h2 {
+    margin-top: 26vh;
+  }
+  .bangladeshline {
+    height: 13vh;
+    background-color: white;
+    clip-path: polygon(0 0%, 100% 0, 100% 13%, 0 90%);
+  }
+  .bangladesh {
+    background-color: #4a4a4a;
+    background-image: linear-gradient(
+      #4a4a4a, #F3F3F3
+      );
   }
   .conscious {
     background-image: url('images/conscious-fashion-bild.png');
@@ -36,6 +51,19 @@
   }
   .manufacturing {
     top: -18.7vh;
+    background-repeat: no-repeat;
+    background-position: right;
+    justify-content: space-around;
+  }
+  .manufacturing h2 {
+    margin-top: 0vh;
+  }
+  .bangladeshline {
+    display: none;
+  }
+  .bangladesh {
+    background-color: none;
+    background-image: none;
   }
   .conscious {
     background-image: url('images/consciousmedia.jpg');
