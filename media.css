@@ -8,7 +8,9 @@
   }
   .manufacturing {
     top: -28.5vh;
+    height: 150vh;
     justify-content: space-between;
+    clip-path: polygon(0 0, 100% 6.7%, 100% 99%, 0 92%);
   }
   .manufacturing h2 {
     margin-top: 26vh;
@@ -23,10 +25,16 @@
     background-image: linear-gradient(
       #4a4a4a, #F3F3F3
       );
+    justify-content: space-between;
+    clip-path: polygon(0 14.5%, 100% 0, 100% 100%, 0 85.5%);
   }
   .conscious {
     background-image: url('images/conscious-fashion-bild.png');
     text-align: center;
+    top: -30vh;
+  }
+  .carousel {
+    top: -30vh;
   }
 }
 
@@ -51,12 +59,17 @@
   }
   .manufacturing {
     top: -18.7vh;
+    height: 120vh;
     background-repeat: no-repeat;
     background-position: right;
     justify-content: space-around;
+    clip-path: polygon(0 0, 100% 8.5%, 100% 92%, 0 100%);
   }
   .manufacturing h2 {
     margin-top: 0vh;
+  }
+  .manufacturing .row:first-child{
+    margin-right: 20%
   }
   .bangladeshline {
     display: none;
@@ -64,9 +77,18 @@
   .bangladesh {
     background-color: none;
     background-image: none;
+    justify-content: space-around;
   }
   .conscious {
     background-image: url('images/consciousmedia.jpg');
     text-align: left;
+    top: -18vh;
+    align-items: flex-end;
+  }
+  .conscious .row {
+    margin-right: 8.5%;
+  }
+  .carousel {
+    top: -18vh;
   }
 }

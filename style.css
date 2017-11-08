@@ -96,16 +96,12 @@ h2 {
   background-image: url('images/bomull-bild.png');
   background-size: contain;
   padding: 15vh 0 0 0;
-  height: 150vh;
-  clip-path: polygon(0 0, 100% 6.7%, 100% 99%, 0 92%);
 }
 
 .bangladesh {
   height: 70vh;
-  justify-content: space-around;
   display: flex;
   flex-direction: column;
-  clip-path: polygon(0 14.5%, 100% 0, 100% 100%, 0 85.5%);
   padding: 0 0 13vh 0;
   border: 5px top solid white;
   /*top: -37vh;*/
@@ -145,7 +141,6 @@ h3 {
 .conscious {
   background-size: cover;
   height: 108vh;
-  top: -30vh;
   justify-content: space-around;
   padding-top: 12vh;
 }
@@ -169,8 +164,8 @@ button {
   margin-top: .5em;
 }
 
-.carousel {
-  top: -30vh;
+button span {
+  word-spacing: 0.5em;
 }
 
 .thrive {
