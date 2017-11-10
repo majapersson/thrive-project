@@ -40,10 +40,11 @@ p span {
 .row {
   flex-basis: auto;
   margin: 0;
+  width: 100%;
 }
 
 .col-10 {
-  padding: 0;
+  /*padding: 0;*/
   flex-basis: auto;
 }
 
@@ -133,7 +134,6 @@ h2 {
 
 h3 {
   font-size: 1.6em;
-
 }
 
 .bangladesh p {
@@ -171,23 +171,28 @@ button span {
   word-spacing: 0.5em;
 }
 
-.thrive .row {
+/*.thrive .row {
   flex-direction: column;
-}
+}*/
 
 .thrive .row:last-of-type {
   top: -2em;
 }
 
-.thrive .row:nth-child(3) {
+/*.thrive .row:nth-child(3) {
   flex-direction: row;
   justify-content: flex-end;
   top: -1.5vh;
+}*/
+
+.thrive {
+  height: auto;
+  min-height: 100vh;
 }
 
 .thrive img {
   width: 30%;
-  height: 30%;
+  height: 100%;
 }
 
 input {
