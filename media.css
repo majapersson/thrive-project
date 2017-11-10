@@ -1,9 +1,14 @@
 @media screen and (max-width: 1199px) {
+  h2 {
+    font-size: 1.7em;
+  }
   .splash {
   background-image: url('images/compassion-for-fashion-bild.png');
   height: 100vh;
+  justify-content: flex-end;
   }
   .fastfashion {
+    background-color: #4a4a4a;
     top: -20vh;
   }
   .manufacturing {
@@ -12,7 +17,7 @@
     justify-content: space-between;
     clip-path: polygon(0 0, 100% 6.7%, 100% 99%, 0 92%);
   }
-  .manufacturing h2 {
+  .manufacturing h3 {
     margin-top: 26vh;
   }
   .bangladeshline {
@@ -32,6 +37,10 @@
     background-image: url('images/conscious-fashion-bild.png');
     text-align: center;
     top: -30vh;
+    padding-top: 12vh;
+  }
+  .conscious .row {
+    justify-content: center;
   }
   .carousel {
     top: -30vh;
@@ -44,33 +53,49 @@
 
 @media screen and (min-width: 1200px) {
   h1 {
-    font-size: 3.5em;
+    font-size: 4em;
+  }
+  h2 {
+    font-size: 3.8em;
   }
   .splash {
     background-image: url('images/splashmedia.jpg');
     height: 120vh;
-    clip-path: polygon(0 0, 100% 0%, 100% 90.5%, 0% 99%);
-  }
-  .splash .row {
-    align-self: flex-end;
   }
   .fastfashion {
-    top: -10vh;
+    background-color: #3E4150;
+    top: -30vh;
     flex-direction: row;
   }
   .fastfashion .row:last-child {
     order: -1;
+    height: 100%;
+    align-items: center;
+  }
+  .fastfashion .row:last-child .col-10 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  iframe {
+    height: 60%;
   }
   .manufacturing {
-    top: -18.7vh;
+    top: -41vh;
     height: 120vh;
     background-repeat: no-repeat;
     background-position: right;
     justify-content: space-around;
     clip-path: polygon(0 0, 100% 8.5%, 100% 92%, 0 100%);
   }
-  .manufacturing h2 {
-    margin-top: 0vh;
+  .manufacturing h3 {
+    font-size: 2.7em;
+  }
+  .manufacturing h4 {
+    font-size: 2em;
+  }
+  .manufacturing blockquote {
+    font-size: 1.5em;
   }
   .manufacturing .row:first-child{
     margin-right: 20%
@@ -83,19 +108,31 @@
     background-image: none;
     justify-content: space-around;
   }
+  .bangladesh .row:last-child .col-xl-5 {
+    margin-right: 20%;
+  }
   .conscious {
     background-image: url('images/consciousmedia.jpg');
     text-align: left;
-    top: -18vh;
+    top: -40vh;
     align-items: flex-end;
   }
   .conscious .row {
-    margin-right: 8.5%;
+    justify-content: flex-end;
+    margin-right: 10%;
   }
   .carousel {
-    top: -18vh;
+    top: -40vh;
+    width: 70%;
+    margin: auto;
   }
-  .thrive {
-
+  .thrive p {
+  font-size: 1.2em;
+  }
+  .thrive span {
+    font-family: 'Playfair Display', serif;
+  }
+  .thrive .row {
+    justify-content: center;
   }
 }
