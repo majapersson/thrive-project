@@ -214,13 +214,19 @@ button span {
 footer {
   background-color: #717F90;
   color: #F9F9F9;
-  height: 105vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
 }
 
+footer .row {
+  align-items: center;
+}
+
+footer img {
+  padding: .5em 0;
+}
 
 input {
   background-color: #9B9B9B;
