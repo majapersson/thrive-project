@@ -89,8 +89,8 @@ h2 {
 
 .manufacturing {
   background-color: #2E3143;
-  background-image: url('images/bomull-bild.png');
-  background-size: contain;
+  background-image: url('images/factorybild.png');
+  background-size: cover;
   padding: 15vh 0 0 0;
 }
 
@@ -193,6 +193,21 @@ button span {
   width: 30%;
   height: 100%;
 }
+
+.thrive h3 {
+  font-family: 'Caveat';
+}
+
+footer {
+  background-color: #717F90;
+  color: #F9F9F9;
+  height: 105vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+}
+
 
 input {
   background-color: #9B9B9B;

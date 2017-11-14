@@ -60,6 +60,7 @@
   }
   .splash {
     background-image: url('images/splash-desktop.png');
+    background-size: contain;
     background-repeat: no-repeat;
     height: 120vh;
   }
@@ -136,5 +137,8 @@
   }
   .thrive .row {
     justify-content: center;
+  }
+  footer p {
+  font-size: 1.2em;
   }
 }
