@@ -6,6 +6,7 @@
 }
 
 body {
+  background: url('images/texture.png');
   font-family: 'Muli', sans-serif;
   min-height: 100vh;
   font-size: calc(0.70em + 1vmin);
@@ -53,7 +54,7 @@ p {
 }
 
 .splash {
-  background-size: cover;
+  /*background-size: cover;*/
   padding: 0 0 30% 0;
 }
 
@@ -136,7 +137,7 @@ h3 {
 }
 
 .conscious {
-  background-size: cover;
+  /*background-size: cover;*/
   height: 108vh;
   justify-content: space-around;
 }

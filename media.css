@@ -59,7 +59,8 @@
     font-size: 3.8em;
   }
   .splash {
-    background-image: url('images/splashmedia.jpg');
+    background-image: url('images/splash-desktop.png');
+    background-repeat: no-repeat;
     height: 120vh;
   }
   .fastfashion {
@@ -112,7 +113,8 @@
     margin-right: 20%;
   }
   .conscious {
-    background-image: url('images/consciousmedia.jpg');
+    background: url('images/conscious-desktop.jpg') no-repeat;
+    background-size: contain;
     text-align: left;
     top: -40vh;
     align-items: flex-end;
