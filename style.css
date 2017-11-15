@@ -87,9 +87,9 @@ h2 {
 }
 
 .manufacturing {
-  background-color: #2E3143;
-  background-image: url('images/factorybild.png');
-  background-size: cover;
+  /*background-color: #2E3143;
+  background-image: url('images/factory.jpg');
+  background-size: cover;*/
   padding: 15vh 0 0 0;
 }
 
@@ -137,7 +137,7 @@ h3 {
 
 .conscious {
   /*background-size: cover;*/
-  height: 108vh;
+  /*height: 108vh;*/
   justify-content: space-around;
 }
 
