@@ -39,7 +39,7 @@
     clip-path: polygon(0 14.5%, 100% 0, 100% 100%, 0 85.5%);
   }
   .conscious {
-    background-image: url('images/conscious-fashion-img1-optimized.jpg');
+    background-image: url('images/conscious-fashion-img1-opacity-optimized.jpg');
     background-size: cover;
     background-position: center;
     height: 108vh;
@@ -78,6 +78,7 @@
     margin-top: 3vh;
     background-repeat: no-repeat;
     height: 120vh;
+    z-index: -1;
   }
   .fastfashion {
     background-color: #3E4150;
@@ -152,7 +153,7 @@
     margin: auto;
   }
   .thrive p {
-  font-size: 1.2em;
+    font-size: 1.2em;
   }
   .thrive span {
     font-family: 'Playfair Display', serif;

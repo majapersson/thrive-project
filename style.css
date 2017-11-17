@@ -233,3 +233,5 @@ input {
   border: none;
   padding: 0.5em 1.6em;
 }
+
+.wow { visibility: hidden; }
