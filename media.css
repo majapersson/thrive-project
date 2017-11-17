@@ -8,6 +8,7 @@
   background-position: center;
   height: 100vh;
   justify-content: flex-end;
+  color: #FAFAFA;
   }
   .fastfashion {
     background-color: #2E3143;
@@ -67,10 +68,11 @@
 
 @media screen and (min-width: 1200px) {
   h1 {
-    font-size: 4em;
+    font-size: 3.5em;
+    color: #5E6B7D;
   }
   h2 {
-    font-size: 3.8em;
+    font-size: 3.5em;
   }
   .splash {
     background-image: url('images/compassionkomp.png');
@@ -79,6 +81,15 @@
     background-repeat: no-repeat;
     height: 120vh;
     z-index: -1;
+  }
+  .splash .col-xl-5 {
+    margin-right: 10%;
+  }
+  .splash h5 {
+    margin-left: 10%;
+  }
+  .splash p {
+    margin-left: 23%;
   }
   .fastfashion {
     background-color: #3E4150;
@@ -90,6 +101,10 @@
     order: -1;
     height: 100%;
     align-items: center;
+    margin-right: 1%;
+  }
+  .fastfashion .row:first-child {
+    margin-left: 1%;
   }
   .fastfashion .row:last-child .col-10 {
     display: flex;
@@ -117,10 +132,10 @@
     font-size: 2em;
   }
   .manufacturing blockquote {
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
   .manufacturing .row:first-child{
-    margin-right: 20%
+    margin-right: 26%;
   }
   .bangladeshline {
     display: none;
@@ -131,12 +146,12 @@
     justify-content: space-around;
   }
   .bangladesh .row:last-child .col-xl-5 {
-    margin-right: 20%;
+    margin-right: 26%;
   }
   .conscious {
     background: url('images/conscious-fashion-img1-v03.jpg');
     background-size: cover;
-    height: 148vh;
+    height: 110vh;
     background-color: #F1F1F1;
     clip-path: polygon(0 6.5%, 100% 0%, 100% 100%, 0 100%);
     text-align: left;
@@ -148,7 +163,7 @@
     margin-right: 10%;
   }
   .carousel {
-    top: -40vh;
+    top: -51vh;
     width: 100%;
     margin: auto;
   }
