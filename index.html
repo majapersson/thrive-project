@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="slick-1.8.0/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick-1.8.0/slick/slick-theme.css"/>
   <link rel="stylesheet" href="animate.css">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Muli:200,300,600" rel="stylesheet">
@@ -101,7 +103,15 @@
       </div><!-- /row -->
     </section>
 
-    <div class="row carouselrow">
+    <div class="carousel">
+     <div><img width="100%" src="images/Karusell/thrive-karusell-bild1.jpg" alt="First slide"></div>
+     <div><img width="100%" src="images/Karusell/thrive-karusell-bild2.jpg" alt="Second slide"></div>
+     <div><img width="100%" src="images/Karusell/thrive-karusell-bild3.jpg" alt="Third slide"></div>
+     <div><img width="100%" src="images/Karusell/thrive-karusell-bild4.jpg" alt="Fourth slide"></div>
+     <div><img width="100%" src="images/Karusell/thrive-karusell-bild5.jpg" alt="Fifth slide"></div>
+   </div>
+
+    <!-- <div class="row carouselrow">
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -123,7 +133,7 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-    </div>
+    </div> -->
 
     <section class="col-12 thrive">
       <div class="row">
@@ -175,28 +185,43 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick-1.8.0/slick/slick.min.js"></script>
+<script type="text/javascript" src="parallax.js"></script>
 <script type="text/javascript">
-
-  const splash = document.querySelector('.splash');
-
-  function setTranslate(xPos, yPos, el) {
-    el.style.transform = "translate3d(" + xPos + ", " + yPos + "px, 0)";
-  }
-
-  window.addEventListener("DOMContentLoaded", scrollLoop, false);
-
-  var xScrollPosition;
-  var yScrollPosition;
-
-  function scrollLoop() {
-      xScrollPosition = window.scrollX;
-      yScrollPosition = window.scrollY;
-
-      setTranslate(0, yScrollPosition * 0.5, splash);
-      requestAnimationFrame(scrollLoop);
-  }
-
-</script>
+ $(document).ready(function(){
+ $('.carousel').slick({
+   centerMode: true,
+   centerPadding: '25%',
+   slidesToShow: 1,
+   autoplay: true,
+   autoplaySpeed: 3000,
+   cssEase: 'ease-in-out',
+   speed: 1000,
+   focusOnSelect: true,
+   responsive: [
+     {
+       breakpoint: 768,
+       settings: {
+         arrows: false,
+         centerMode: true,
+         centerPadding: '40px',
+         slidesToShow: 3
+       }
+     },
+     {
+       breakpoint: 480,
+       settings: {
+         arrows: false,
+         centerMode: true,
+         centerPadding: '40px',
+         slidesToShow: 1
+       }
+     }
+   ]
+ });
+ });
+ </script>
 </body>
 </html>

@@ -156,7 +156,7 @@ h3 {
   color: #717190;
 }
 
-.carousel-control-prev-icon {
+/*.carousel-control-prev-icon {
   background-image: url('images/arrow-black-left.png');
   background-size: 100%;
   width: 50%;
@@ -168,7 +168,7 @@ h3 {
   background-size: 100%;
   width: 50%;
   height: 50%;
-}
+}*/
 
 button {
   background-color: #4a4a4a;

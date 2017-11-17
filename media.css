@@ -149,8 +149,11 @@
   }
   .carousel {
     top: -40vh;
-    width: 70%;
+    width: 100%;
     margin: auto;
+  }
+  .slick-slide {
+    margin: 0 20px;
   }
   .thrive p {
     font-size: 1.2em;
