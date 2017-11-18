@@ -134,7 +134,7 @@
   .manufacturing blockquote {
     font-size: 1.3em;
   }
-  .manufacturing .row:first-child{
+  .manufacturing .row:first-child .col-xl-5 {
     margin-right: 26%;
   }
   .bangladeshline {
@@ -183,7 +183,7 @@
     height: 110vh;
   }
   footer p {
-  font-size: 1.2em;
+    font-size: 1.2em;
   }
   footer > .row:last-child  .col-12 {
     border-top: 1px solid #F9F9F9;

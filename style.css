@@ -217,7 +217,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 9%, 100% 0, 100% 100%, 0% 100%);
 }
 
 footer .row {
@@ -229,9 +229,47 @@ footer img {
 }
 
 input {
-  background-color: #9B9B9B;
+  background-color: #D8D8D8;
   border: none;
   padding: 0.5em 1.6em;
 }
 
-.wow { visibility: hidden; }
+button[type="submit"] {
+  background-color: #2E3143;
+}
+
+/*Checkboxes styles*/
+input[type="checkbox"] { display: none; }
+
+input[type="checkbox"] + label {
+  display: block;
+  position: relative;
+  padding-left: 1.8em;
+  margin-top: .5em;
+  cursor: pointer;
+}
+
+input[type="checkbox"] + label:before {
+  content: '';
+  display: block;
+  width: 1em;
+  height: 1em;
+  border: 1px solid #F9F9F9;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: .6;
+  transition: all .12s;
+}
+
+input[type="checkbox"]:checked + label:before {
+  width: .5em;
+  height: 1em;
+  top: -.2em;
+  left: .2em;
+  border-radius: 0;
+  opacity: 1;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  transform: rotate(45deg);
+}
