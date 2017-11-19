@@ -4,7 +4,7 @@ function setTranslate(xPos, yPos, el) {
   el.style.transform = "translate3d(" + xPos + ", " + yPos + "px, 0)";
 }
 
-if (window.innerWidth > 400){
+if (window.innerWidth > 600){
 window.addEventListener("DOMContentLoaded", scrollLoop, false);
 }
 

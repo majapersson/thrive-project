@@ -259,7 +259,6 @@ input[type="checkbox"] + label:before {
   left: 0;
   top: 0;
   opacity: .6;
-  transition: all .12s;
 }
 
 input[type="checkbox"]:checked + label:before {
