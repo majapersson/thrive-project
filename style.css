@@ -134,14 +134,7 @@ h3 {
   text-align: center;
 }
 
-.conscious {
-  /*background-size: cover;*/
-  /*height: 108vh;*/
-  justify-content: space-around;
-}
-
 .conscious h2 {
-  color: #717190;
   margin: auto;
   margin-bottom: .5em;
 }
@@ -175,7 +168,6 @@ button {
   padding: 0.5em 1.6em;
   border: none;
   margin: auto;
-  margin-top: .5em;
 }
 
 button span {
@@ -199,7 +191,6 @@ button span {
 .thrive {
   height: auto;
   /*min-height: 100vh;*/
-  top: -30vh;
 }
 
 .thrive img {

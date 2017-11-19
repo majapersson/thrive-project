@@ -1,6 +1,6 @@
 @media screen and (max-width: 1199px) {
   h2 {
-    font-size: 1.7em;
+    font-size: 1.9em;
   }
   .splash {
   background-image: url('images/splash-desktop.png');
@@ -18,51 +18,82 @@
     background-color: #3E4456;
     background-image: url('images/factorymobil.png');
     background-size: contain;
-    top: -28.5vh;
+    top: -30.5vh;
     height: 150vh;
     justify-content: space-between;
     clip-path: polygon(0 0, 100% 6.7%, 100% 99%, 0 92%);
   }
   .manufacturing h3 {
-    margin-top: 26vh;
-  }
-  .bangladeshline {
-    height: 13vh;
-    background-color: white;
-    clip-path: polygon(0 0%, 100% 0, 100% 13%, 0 90%);
+    margin-top: 25vh;
+    margin-bottom: 2vh;
   }
   .bangladesh {
     background-color: #2E3143;
     /*background-image: linear-gradient(
       #4a4a4a, #F3F3F3
       );*/
-    justify-content: space-between;
+    justify-content: space-around;
     clip-path: polygon(0 14.5%, 100% 0, 100% 100%, 0 85.5%);
   }
+  .bangladesh h4 {
+    margin-top: 13vh;
+    font-size: 1.9em;
+  }
+  .bangladesh .row:nth-child(2) {
+    margin-top: 3vh;
+  }
+  .bangladesh .row:nth-child(3) {
+    margin-bottom: 5vh;
+  }
   .conscious {
-    background-image: url('images/conscious-fashion-img1-opacity-optimized.jpg');
+    justify-content: flex-start;
+    background-color: #FFFFFF;
+    background: url('images/conscious-fashion-mobile.jpg') no-repeat;
     background-size: cover;
-    background-position: center;
-    height: 108vh;
+    background-position: center top 5vh;
+    height: 118vh;
     text-align: center;
-    top: -30vh;
-    padding-top: 12vh;
+    top: -49vh;
+    padding-top: 41.5vh;
+    z-index: -1;
+    clip-path: polygon(0 0%, 100% 0, 100% 100%, 0 95%);
   }
   .conscious .row {
     justify-content: center;
   }
+  .conscious img {
+    display: none;
+  }
+  .conscious h2 {
+    color: #2E3143;
+  }
+  .conscious h3 {
+    font-family: 'Muli';
+    font-weight: 600;
+    margin-top: 5vh;
+  }
+  .conscious button {
+    background-color: #2E3143;
+  }
   .carousel {
-    top: -30vh;
+    top: -42vh;
   }
   .thrive {
-    top: -30vh;
+    top: -39vh;
     padding-top: 3vh;
   }
   footer {
-    height: 100vh;
+    height: 85vh;
+    position: absolute;
+    bottom: -527vh;
+    padding-top: 12vh;
   }
   footer .row > img {
     width: 50%;
+    margin-top: 2vh;
+  }
+  footer > .row:last-child  .col-12 {
+    margin-top: 3vh;
   }
 }
 
@@ -149,18 +180,28 @@
     margin-right: 26%;
   }
   .conscious {
-    background: url('images/conscious-fashion-img1-v03.jpg');
+    background: url('images/conscious-fashion-img1-v04.jpg') no-repeat;
     background-size: cover;
     height: 110vh;
     background-color: #F1F1F1;
     clip-path: polygon(0 6.5%, 100% 0%, 100% 100%, 0 100%);
     text-align: left;
     top: -51vh;
+    justify-content: space-around;
     align-items: flex-end;
   }
   .conscious .row {
     justify-content: flex-end;
     margin-right: 10%;
+  }
+  .conscious h2 {
+      color: #717190;
+  }
+  .conscious h3 {
+    display: none;
+  }
+  .conscious button {
+    margin-top: .5em;
   }
   .carousel {
     top: -51vh;
@@ -169,6 +210,9 @@
   }
   .slick-slide {
     margin: 0 20px;
+  }
+  .thrive {
+    top: -30vh;
   }
   .thrive p {
     font-size: 1.2em;
