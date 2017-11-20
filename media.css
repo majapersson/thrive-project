@@ -21,6 +21,7 @@
     top: -30.5vh;
     height: 150vh;
     justify-content: space-between;
+    -webkit-clip-path: polygon(0 0, 100% 6.7%, 100% 99%, 0 92%);
     clip-path: polygon(0 0, 100% 6.7%, 100% 99%, 0 92%);
   }
   .manufacturing h3 {
@@ -33,6 +34,7 @@
       #4a4a4a, #F3F3F3
       );*/
     justify-content: space-around;
+    -webkit-clip-path: polygon(0 14.5%, 100% 0, 100% 100%, 0 85.5%);
     clip-path: polygon(0 14.5%, 100% 0, 100% 100%, 0 85.5%);
   }
   .bangladesh h4 {
@@ -56,6 +58,7 @@
     top: -49vh;
     padding-top: 41.5vh;
     z-index: -1;
+    -webkit-clip-path: polygon(0 0%, 100% 0, 100% 100%, 0 95%);
     clip-path: polygon(0 0%, 100% 0, 100% 100%, 0 95%);
   }
   .conscious .row {
@@ -154,6 +157,7 @@
     background-repeat: no-repeat;
     background-position: right;
     justify-content: space-around;
+    -webkit-clip-path: polygon(0 0, 100% 8.5%, 100% 92%, 0 100%);
     clip-path: polygon(0 0, 100% 8.5%, 100% 92%, 0 100%);
   }
   .manufacturing h3 {
@@ -184,6 +188,7 @@
     background-size: cover;
     height: 110vh;
     background-color: #F1F1F1;
+    -webkit-clip-path: polygon(0 6.5%, 100% 0%, 100% 100%, 0 100%);
     clip-path: polygon(0 6.5%, 100% 0%, 100% 100%, 0 100%);
     text-align: left;
     top: -51vh;
