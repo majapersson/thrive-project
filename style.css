@@ -51,7 +51,7 @@ p {
 }
 
 .white {
-  color: #FAFAFA;
+  color: #E4E4E4;
 }
 
 .splash {
@@ -71,6 +71,7 @@ h5 span {
   padding: 0;
   height: 100vh;
   justify-content: space-around;
+  -webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
   clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
   padding: 13vh 0;
 }
@@ -107,6 +108,7 @@ h2 {
   height: 5vh;
   background-color: #F3F3F3;
   margin-right: 3%;
+  -webkit-clip-path: polygon(0 0%, 97% 0, 100% 100%, 0 100%);
   clip-path: polygon(0 0%, 97% 0, 100% 100%, 0 100%);
 }
 
@@ -115,6 +117,7 @@ h2 {
   height: 5vh;
   background-color: #F3F3F3;
   margin-right: 3%;
+  -webkit-clip-path: polygon(0 0%, 88% 0, 100% 100%, 0 100%);
   clip-path: polygon(0 0%, 88% 0, 100% 100%, 0 100%);
 }
 
@@ -162,11 +165,15 @@ h3 {
 }*/
 
 button {
-  background-color: #4a4a4a;
-  color: #F3F3F3;
+  background-color: #3E4456;
+  color: #FAFAFA;
   padding: 0.5em 1.6em;
   border: none;
   margin: auto;
+  transition: all .4s;
+}
+button:hover {
+  background-color: #2E3143;
 }
 
 button span {
@@ -207,11 +214,16 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  -webkit-clip-path: polygon(0 9%, 100% 0, 100% 100%, 0% 100%);
   clip-path: polygon(0 9%, 100% 0, 100% 100%, 0% 100%);
 }
 
 footer .row {
   align-items: center;
+}
+
+footer .row:first-child .col-xl-8 {
+  margin-top: 1em;
 }
 
 footer img {
@@ -245,6 +257,7 @@ input[type="checkbox"] + label:before {
   width: 1em;
   height: 1em;
   border: 1px solid #F9F9F9;
+  margin-left: .5em;
   position: absolute;
   left: 0;
   top: 0;
@@ -257,6 +270,7 @@ input[type="checkbox"]:checked + label:before {
   top: -.2em;
   left: .2em;
   border-radius: 0;
+  margin-left: .5em;
   opacity: 1;
   border-top-color: transparent;
   border-left-color: transparent;
