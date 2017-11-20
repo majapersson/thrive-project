@@ -8,7 +8,7 @@
   background-position: center;
   height: 100vh;
   justify-content: flex-end;
-  color: #FAFAFA;
+  color: #E4E4E4;
   }
   .fastfashion {
     background-color: #2E3143;
@@ -196,7 +196,7 @@
     background: url('../images/conscious-fashion-img1-v04.jpg') no-repeat;
     background-size: cover;
     height: 110vh;
-    background-color: #F1F1F1;
+    background-color: #FFFFFF;
     clip-path: polygon(0 6.5%, 100% 0%, 100% 100%, 0 93.5%);
     -webkit-clip-path: polygon(0 6.5%, 100% 0%, 100% 100%, 0 93.5%);
     text-align: left;
@@ -209,14 +209,14 @@
     margin-right: 10%;
   }
   .conscious h2 {
-    color: #717190;
+    color: #5E6B7D;
     margin-top: 8vh;
   }
   .conscious h3 {
     display: none;
   }
   .conscious p span {
-    color: #717190;
+    color: #5E6B7D;
   }
   .conscious button {
     margin-top: .5em;
@@ -256,7 +256,7 @@
     font-size: 1.2em;
   }
   footer > .row:last-child  .col-12 {
-    border-top: 1px solid #F9F9F9;
+    border-top: 1px solid #E4E4E4;
     margin-top: 15vh;
     padding-top: 5vh;
   }
