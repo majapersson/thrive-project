@@ -12,10 +12,13 @@
   }
   .fastfashion {
     background-color: #2E3143;
+    background: url('images/catwalk.jpg') center;
+    background-size: cover;
     top: -20vh;
   }
   .manufacturing {
-    background-color: #3E4456;
+    /*background-color: #3E4456;*/
+    background-color: #2E3143;
     background-image: url('images/factorymobil.png');
     background-size: contain;
     top: -30.5vh;
@@ -30,6 +33,8 @@
   }
   .bangladesh {
     background-color: #2E3143;
+    background-image: url('images/factory.jpg');
+    background-size: cover;
     /*background-image: linear-gradient(
       #4a4a4a, #F3F3F3
       );*/
