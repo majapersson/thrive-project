@@ -54,7 +54,7 @@
     height: 118vh;
     text-align: center;
     top: -49vh;
-    padding-top: 41.5vh;
+    padding-top: 45.5vh;
     z-index: -1;
     clip-path: polygon(0 0%, 100% 0, 100% 100%, 0 95%);
   }
@@ -72,14 +72,18 @@
     font-weight: 600;
     margin-top: 5vh;
   }
+  .conscious br {
+    display: none;
+  }
   .conscious button {
     background-color: #2E3143;
   }
   .carousel {
-    top: -42vh;
+    top: -55vh;
+    z-index: -2;
   }
   .thrive {
-    top: -39vh;
+    top: -46vh;
     padding-top: 3vh;
   }
   footer {
@@ -184,7 +188,8 @@
     background-size: cover;
     height: 110vh;
     background-color: #F1F1F1;
-    clip-path: polygon(0 6.5%, 100% 0%, 100% 100%, 0 100%);
+    clip-path: polygon(0 6.5%, 100% 0%, 100% 100%, 0 93.5%);
+    -webkit-clip-path: polygon(0 6.5%, 100% 0%, 100% 100%, 0 93.5%);
     text-align: left;
     top: -51vh;
     justify-content: space-around;
@@ -195,24 +200,34 @@
     margin-right: 10%;
   }
   .conscious h2 {
-      color: #717190;
+    color: #717190;
+    margin-top: 8vh;
   }
   .conscious h3 {
     display: none;
   }
+  .conscious p span {
+    color: #717190;
+  }
   .conscious button {
     margin-top: .5em;
   }
+  .conscious img {
+    width: auto;
+    height: 50%;
+    margin-bottom: 2.5vh;
+  }
   .carousel {
-    top: -51vh;
+    top: -58.5vh;
     width: 100%;
     margin: auto;
+    z-index: -1;
   }
-  .slick-slide {
+  /*.slick-slide {
     margin: 0 20px;
-  }
+  }*/
   .thrive {
-    top: -30vh;
+    top: -35vh;
   }
   .thrive p {
     font-size: 1.2em;
@@ -225,6 +240,8 @@
   }
   footer {
     height: 110vh;
+    position: absolute;
+    bottom: -590vh;
   }
   footer p {
     font-size: 1.2em;
