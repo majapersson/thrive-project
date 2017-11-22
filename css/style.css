@@ -46,7 +46,6 @@ p {
 }
 
 .col-10 {
-  /*padding: 0;*/
   flex-basis: auto;
 }
 
@@ -88,9 +87,6 @@ h2 {
 }
 
 .manufacturing {
-  /*background-color: #2E3143;
-  background-image: url('images/factory.jpg');
-  background-size: cover;*/
   padding: 15vh 0 0 0;
 }
 
@@ -100,7 +96,6 @@ h2 {
   flex-direction: column;
   padding: 0 0 13vh 0;
   border: 5px top solid white;
-  /*top: -37vh;*/
 }
 
 .stack1 {
@@ -150,20 +145,6 @@ h3 {
   font-weight: 600;
 }
 
-/*.carousel-control-prev-icon {
-  background-image: url('images/arrow-black-left.png');
-  background-size: 100%;
-  width: 50%;
-  height: 50%;
-}
-
-.carousel-control-next-icon {
-  background-image: url('images/arrow-black-right.png');
-  background-size: 100%;
-  width: 50%;
-  height: 50%;
-}*/
-
 button {
   background-color: #3E4456;
   color: #FAFAFA;
@@ -180,23 +161,12 @@ button span {
   word-spacing: 0.5em;
 }
 
-/*.thrive .row {
-  flex-direction: column;
-}*/
-
 .thrive .row:last-of-type {
   top: -2em;
 }
 
-/*.thrive .row:nth-child(3) {
-  flex-direction: row;
-  justify-content: flex-end;
-  top: -1.5vh;
-}*/
-
 .thrive {
   height: auto;
-  /*min-height: 100vh;*/
 }
 
 .thrive img {
