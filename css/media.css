@@ -60,6 +60,7 @@
     top: -49vh;
     padding-top: 45.5vh;
     z-index: -1;
+    -webkit-transform: translate3d(0,0,0);
     -webkit-clip-path: polygon(0 0%, 100% 0, 100% 100%, 0 95%);
     clip-path: polygon(0 0%, 100% 0, 100% 100%, 0 95%);
   }
@@ -85,7 +86,7 @@
   }
   .carousel {
     top: -55vh;
-    z-index: -10;
+    z-index: -2;
   }
   .thrive {
     top: -46vh;
@@ -227,7 +228,7 @@
     top: -58.5vh;
     width: 100%;
     margin: auto;
-    z-index: -10;
+    z-index: -2;
   }
   /*.slick-slide {
     margin: 0 20px;
