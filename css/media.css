@@ -60,7 +60,6 @@
     top: -49vh;
     padding-top: 45.5vh;
     z-index: -1;
-    -webkit-transform: translate3d(0,0,0);
     -webkit-clip-path: polygon(0 0%, 100% 0, 100% 100%, 0 95%);
     clip-path: polygon(0 0%, 100% 0, 100% 100%, 0 95%);
   }
