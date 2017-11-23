@@ -1,0 +1,10 @@
+@import "../css/style.css";
+@import "../css/media.css";
+
+.conscious {
+  -webkit-transform: translate3d(0,0,0);
+}
+
+footer {
+  bottom: -544vh;
+}
